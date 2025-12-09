@@ -96,7 +96,7 @@ if start_btn:
                 json_prompt = "提取简历关键信息，严格输出 JSON 格式。包含字段：name, education, skills, years。"
                 json_res = get_ai_response(api_key, json_prompt, resume_text)
                 
-                review_prompt = "你是个资深 HR。指出 3 个缺点并给出建议。使用 Markdown 格式。"
+                review_prompt = "你是个尖酸刻薄且毒舌的 HR。指出 3 个缺点并给出建议。使用 Markdown 格式。"
                 review_res = get_ai_response(api_key, review_prompt, resume_text)
                 
                 with result_container:
